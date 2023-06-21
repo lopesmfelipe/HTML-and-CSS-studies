@@ -1,5 +1,4 @@
-<style>
- p {
+p {
     font-family: arial;
     margin-bottom: 0;
     margin-top: 0;
@@ -30,13 +29,3 @@
     color: red;
 }
 
-</style>
-<p class="text1">
-    1,049.61 <span class="currency">USD</span>
-</p>
-<p class="text2">
-    +18.05(1.75%)today
-</p>
-<p class="text3">
-    After hours 1,048.00 <span class="result">-1.61 (0.15%)</span> 
-</p>

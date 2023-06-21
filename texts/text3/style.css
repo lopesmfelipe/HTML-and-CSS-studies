@@ -1,4 +1,3 @@
-<style>
 p {
     font-family: arial;
     margin-top: 0;
@@ -42,20 +41,3 @@ p {
     margin-left: 136px;
 
 }
-
-</style>
-<p class="text1">
-    new
-</p>
-<p class="text2">
-    MacBook Pro
-</p>
-<p class="text3">
-    Supercharged for pros.
-</p>
-<p class="text4">
-    From $1999
-</p>
-<button class="buy-button">
-    Buy
-</button>

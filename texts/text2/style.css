@@ -1,5 +1,3 @@
-<style>
-
 .tahoma-text {
     font-family: tahoma;
     font-size: 20px;
@@ -73,37 +71,3 @@
     margin-left: 90px;
     color: rgb(7, 94, 195);
 }
-
-</style>
-
-<p class="tahoma-text">
-    I'm using Tahoma Font
-</p>
-<p class="arial-title">
-    Biggest Deals of the Year!
-</p>
-<p class="arial-description">
-    Sales end Tuesday
-</p>
-<p class="verdana-title">
-    How to create a robot company 
-    <span class="verdana-bottom">
-         Zero to billionaire 
-    </span>
-</p>
-<p class="verdana-text">
-    Here you'll learn how to create a big robot company, and how to present yourself to investors
-</p>
-<button class="button-verdana">
-    Get Started dafsf
-</button>
-<br>
-<p class="text1">
-    Shopping for your business? 
-</p>
-<p class="text2">
-    See how coffee at Work can help.
-</p>
-<p class="text3">
-    Learn more &gt;
-</p>

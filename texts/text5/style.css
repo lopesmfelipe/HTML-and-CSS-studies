@@ -1,0 +1,25 @@
+ p {
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+ }
+
+ .text1 {
+    font-weight: bold;
+ }
+
+ .gray-text {
+    color: gray;
+    font-weight: normal;
+ }
+
+ .text2 {
+    width: 510px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+ }
+
+ .blue-text {
+    color: rgba(0, 157, 255, 0.96);
+ }
+ 
