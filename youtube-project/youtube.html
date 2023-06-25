@@ -14,6 +14,7 @@
                 height: 30px;
                 padding-left: 10px;
                 margin-bottom: 17px;
+                display: block;
             }
 
             .thumbnail_1 {
@@ -24,21 +25,54 @@
             .video-title {
                 margin-top: 6px;
                 margin-bottom: 4px;
+                font-weight: bold;
+                font-size: 15.7px;
+                margin-bottom: 13px;
+            }
+
+            .video-author {
+                font-size: 13.2px;
+                margin-bottom: 4px;
+            }
+
+            .video-stats {
+                font-size: 13.2px;
+            }
+            .video-area {
+                display: inline-block;
+                margin-right: 10px;
+                vertical-align: top;
             }
 
         </style>
     </head>
     <body>
         <input class="search-bar" type="text" placeholder="Search">
-        <img class="thumbnail_1" src="thumbnails/thumbnail_1.jpg">
-        <p class="video-title">
-            AMV - Hajime no Ippo - Hekireki
-        </p>
-        <p class="video-author">
-            CaptainMaakasu
-        </p>
-        <p class="video-stats">
-            9.7M views &#183; 1 day ago
-        </p>
+        
+        <div class="video-area">
+            <img class="thumbnail_1" src="thumbnails/thumbnail_1.jpg">
+            <p class="video-title">
+             AMV - Hajime no Ippo - Hekireki
+            </p>
+            <p class="video-author">
+                CaptainMaakasu
+            </p>
+            <p class="video-stats">
+                9.7M views &#183; 1 day ago
+            </p>
+        </div>
+
+        <div class="video-area">
+            <img class="thumbnail_1" src="thumbnails/thumbnail_5.jpg">
+            <p class="video-title">
+             Tokyo Drift 
+            </p>
+            <p class="video-author">
+                NightDriver
+            </p>
+            <p class="video-stats">
+                24.1M views &#183; 2 months ago
+            </p>
+        </div>
     </body>
 </html>

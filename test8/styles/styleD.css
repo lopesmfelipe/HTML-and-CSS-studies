@@ -1,0 +1,55 @@
+.box1 {
+    border-radius: 5px;
+    border-width: 0.7px;
+    margin-bottom: 9px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 11px;
+    width: 115px;
+    font-size: 12.8px
+}
+
+.box2 {
+    border-radius: 5px;
+    border-width: 0.7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 11px;
+    width: 115px;
+    font-size: 12.8px
+}
+
+.box3 {
+    display: block;
+    border-radius: 5px;
+    border-width: 0.7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 11px;
+    width: 248px;
+    margin-bottom: 9px;
+    font-size: 12.8px
+}
+
+.button1 {
+    background-color: rgb(50, 118, 212);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 106px;
+    padding-right: 106px;
+    display: block;
+    cursor: pointer;
+    transition: opacity 3s;
+}
+
+.button1:hover {
+    opacity: 0.9;
+}
+
+.button1:active {
+    opacity: 0.6;
+}

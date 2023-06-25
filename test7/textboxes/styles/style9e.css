@@ -1,0 +1,40 @@
+.div1 {
+    display: inline-block;
+    width: 400px;
+    height: 60px;
+    box-shadow: 3px 0.1px 6px rgba(0, 0, 0, 0.37);
+    border-radius: 4px;
+}
+
+.img1 {
+    margin-left: 10px;
+    margin-top: 6.5px;
+    border-radius: 50px;
+    margin-bottom: 0;
+    width: 46px;
+    height: 46px;
+    vertical-align: middle;
+}
+
+.textbox4 {
+    vertical-align: middle;
+    width: 208.9px;
+    border: none;
+    margin-left: 3px;
+}
+
+.textbox4::placeholder {
+    color:rgb(93, 93, 93);
+}
+
+.button2 {
+    border: none;
+    background-color: rgb(55, 147, 228);
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
