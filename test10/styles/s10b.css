@@ -1,0 +1,57 @@
+.profile1 {
+    margin-bottom: 10px
+}
+
+.div-picture {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.picture {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 70px;
+}
+
+.text {
+    vertical-align: middle;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+p {
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 18px;
+}
+
+.p1 {
+    font-weight: bold;
+    font-size: 13.8px;
+}
+
+.p2 {
+    font-size: 13.8px;
+    color: rgb(132, 132, 132);
+}
+
+.button {
+    display: inline-block;
+}
+
+.b1 {
+    background-color: rgb(42, 123, 236);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-left: 80px;
+}
