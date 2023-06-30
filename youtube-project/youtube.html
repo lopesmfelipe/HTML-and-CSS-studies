@@ -7,6 +7,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <style>
+
+            .videos-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
             p {
                 font-family: 'Roboto', sans-serif;
                 margin-top: 0;
@@ -22,8 +28,8 @@
             }
 
             .thumbnail_1 {
-                width: 250px;
-                display: block;
+                width: 100%;
+                margin-bottom: 5px;
             }
 
             .video-area {
@@ -31,34 +37,33 @@
                 margin-right: 10px;
                 vertical-align: top;
             }
+
+            .video-info-grid {
+                display: grid;
+                grid-template-columns: 36px 1fr;
+            }
             
             .channel-picture {
-                display: inline-block;
-                width: 36px;
-                height: 36px;
-                vertical-align: top;
-                margin-top: 8px;
-                margin-right: 4.3px;
+                background-color: rgba(176, 0, 0, 0.672);
             }
 
             .img {
                 width: 100%;
-                height: 100%;
+                height: 36px;
                 border-radius: 40px;
             }
             
-            .video-info {   
-                display: inline-block;      
-                width: 203px;           
-                margin-top: 3.6px;            
+            .video-info {               
+                background-color: rgba(98, 98, 98, 0.672);  
             }
             
             .video-title {
                 font-size: 14px;
                 font-weight: 515;
-                margin-top: 7px;
+                margin-top: 4px;
                 margin-bottom: 2px;
                 padding-bottom: 6px;
+                margin-left: 4px;
             }
         
             .video-author,
@@ -67,44 +72,109 @@
                 margin-bottom: 2px;
                 color: rgb(96, 96, 96);
                 font-weight: 450;
+                margin-left: 4px;
             }
             </style>
     </head>
-    <body>
+    <body style="padding-bottom: 1600px;">
         <input class="search-bar" type="text" placeholder="Search">
-        <div class="video-area">
-            <div>
-                <img class="thumbnail_1" src="thumbnails/thumbnail_1.jpg">
+        
+        <div class="videos-grid"> 
+            <div class="video-area">
+                <div>
+                    <img class="thumbnail_1" src="thumbnails/thumbnail_1.jpg">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="img" src="thumbnails/thumbnail_1.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">AMV Hajime no Ippo - Hekireki</p>
+                        <p class="video-author">CaptainMaakasu</p>
+                        <p class="video-stats">9.7M views &#183; 1 day ago</p>
+                    </div>
+                </div>          
             </div>
-            <div>
-                <div class="channel-picture">
-                    <img class="img" src="thumbnails/thumbnail_1.jpg">
+                    
+            <div class="video-area">
+                <div>
+                    <img class="thumbnail_1" src="thumbnails/thumbnail_5.jpg">
                 </div>
-                <div class="video-info">
-                    <p class="video-title">AMV Hajime no Ippo - Hekireki</p>
-                    <p class="video-author">CaptainMaakasu</p>
-                    <p class="video-stats">9.7M views &#183; 1 day ago</p>
-                </div>
-            </div>          
-        </div>
-                
-        <div class="video-area">
-            <div>
-                <img class="thumbnail_1" src="thumbnails/thumbnail_5.jpg">
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="img" src="thumbnails/thumbnail_5.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Tokyo Drift</p>
+                        <p class="video-author">NightDriver</p>
+                        <p class="video-stats">24.1M views &#183; 2 months ago</p>
+                    </div>    
+                </div>        
             </div>
-            <div>
-                <div class="channel-picture">
-                    <img class="img" src="thumbnails/thumbnail_5.jpg">
+    
+            <div class="video-area">
+                <div>
+                    <img class="thumbnail_1" src="thumbnails/thumbnail_1.jpg">
                 </div>
-                <div class="video-info">
-                    <p class="video-title">Tokyo Drift</p>
-                    <p class="video-author">NightDriver</p>
-                    <p class="video-stats">24.1M views &#183; 2 months ago</p>
-                </div>    
-            </div>        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="img" src="thumbnails/thumbnail_1.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">AMV Hajime no Ippo - Hekireki</p>
+                        <p class="video-author">CaptainMaakasu</p>
+                        <p class="video-stats">9.7M views &#183; 1 day ago</p>
+                    </div>
+                </div>          
+            </div>
+                    
+            <div class="video-area">
+                <div>
+                    <img class="thumbnail_1" src="thumbnails/thumbnail_5.jpg">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="img" src="thumbnails/thumbnail_5.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Tokyo Drift</p>
+                        <p class="video-author">NightDriver</p>
+                        <p class="video-stats">24.1M views &#183; 2 months ago</p>
+                    </div>    
+                </div>        
+            </div>
+    
+            <div class="video-area">
+                <div>
+                    <img class="thumbnail_1" src="thumbnails/thumbnail_1.jpg">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="img" src="thumbnails/thumbnail_1.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">AMV Hajime no Ippo - Hekireki</p>
+                        <p class="video-author">CaptainMaakasu</p>
+                        <p class="video-stats">9.7M views &#183; 1 day ago</p>
+                    </div>
+                </div>          
+            </div>
+                    
+            <div class="video-area">
+                <div>
+                    <img class="thumbnail_1" src="thumbnails/thumbnail_5.jpg">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="img" src="thumbnails/thumbnail_5.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Tokyo Drift</p>
+                        <p class="video-author">NightDriver</p>
+                        <p class="video-stats">24.1M views &#183; 2 months ago</p>
+                    </div>    
+                </div>        
+            </div>
         </div>
-
-
-
     </body>
 </html>

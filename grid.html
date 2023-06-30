@@ -3,7 +3,7 @@
     <head>
         <title>Practicing Grid</title>
     </head>
-    <body>
+    <body style="padding-bottom: 1500px;">
         <div style="
             display: grid;
             grid-template-columns: 100px 100px 
@@ -30,11 +30,33 @@
         <div style="
             margin-top: 50px;
             display: grid;
-            grid-template-columns: 100px 1fr;">
+            grid-template-columns: 100px 1fr;
+            ">
             <div style="background-color:
-            lightcoral">div 1</div>
+            rgb(0, 219, 201)">div 1</div>
              <div style="background-color:
-             rgb(94, 154, 238)">div 1</div>
+             rgb(94, 154, 238)">1fr</div>
+        </div>
+
+        <div style="
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 40px;
+            ">
+            <div style="background-color:
+            rgb(0, 219, 201); height: 200px;">div 1</div>
+             <div style="background-color:
+             rgb(94, 154, 238)">1fr</div>
+             <div style="background-color:
+             rgb(0, 219, 201)">2fr</div>
+             <div style="background-color:
+             rgb(94, 154, 238)">1fr</div>
+             <div style="background-color:
+             rgb(0, 219, 201); height: 200px;">div 1</div>
+              <div style="background-color:
+              rgb(94, 154, 238)">1fr</div>
         </div>
 
     </body>
